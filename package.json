@@ -1,6 +1,6 @@
 {
   "name": "viteuf",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "description": "A ViteFait Starter",
   "main": "cli.js",
   "scripts": {
