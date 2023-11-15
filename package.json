@@ -8,7 +8,7 @@
   },
   "type": "module",
   "bin": {
-    "viteuf": "./src/viteuf.mjs"
+    "viteuf": "./cli.js"
   },
   "repository": {
     "type": "git",
