@@ -4,7 +4,7 @@
   "description": "A ViteFait Starter",
   "main": "cli.js",
   "scripts": {
-    "zshmeact": "node -e 'require(\"./index.js\").zshmeact();'"
+    "viteuf": "node -e 'require(\"./index.js\").zshmeact();'"
   },
   "type": "module",
   "bin": {
