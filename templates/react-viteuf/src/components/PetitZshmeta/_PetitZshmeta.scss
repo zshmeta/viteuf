@@ -1,0 +1,205 @@
+
+/* Little Men*/
+.littleMan {
+    position: absolute;
+    height: 60px;
+    top: 180px;
+    margin-left: 950px; ;
+    width: 70px;
+    background-color: black;
+    z-index: 5;
+}
+
+.littleManHead {
+    position: absolute;
+    height: 35px;
+    margin-top: -20px;
+    margin-left: 15px;
+    width: 40px;
+    top: -20px;
+    background-color: black;
+    color: black;
+    z-index: 3
+}
+
+.littleManBald {
+    background-color: #e0ac69;
+    position: absolute;
+    z-index: 3;
+    width: 15px;
+    left: 13px;
+    height: 13px;
+    border: 1px;
+}
+
+.littleManNeck {
+    background-color: #e0ac69;
+    position: absolute;
+    width: 25px;
+    top: -10px;
+    left: 23px;
+    height: 10px;
+    border: 1px;
+    z-index: 1;
+}
+
+/* Arms */
+
+.littleManArmRT {
+    background-color: black;
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: -20px;
+    color: white;
+    height: 35px;
+    z-index: 3;
+}
+
+.littleManArmRL {
+    background-color: #e0ac69;
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    left: -20px;
+    color: white;
+    z-index: 6;
+    height: 35px;
+}
+
+.littleManArmLT {
+    background-color: black;
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: 60px;
+    color: white;
+    z-index: 3;
+    height: 35px;
+}
+
+.littleManArmLL {
+    background-color: #e0ac69;
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    left: 70px;
+    color: white;
+    z-index: 3;
+    height: 35px;
+}
+
+
+/* Legs */
+
+.littleManAss {
+    background-color: gray;
+    position: absolute;
+    width: 60px;
+    top: 60px;
+    z-index: 3;
+    height: 10px;
+    left: 10px;
+
+}
+
+.littleManLegRT {
+    background-color: gray;
+    position: absolute;
+    width: 30px;
+    top: 60px;
+    left: 0;
+    color: white;
+    z-index: 3;
+    height: 25px;
+}
+
+.littleManLegRL {
+    background-color: #e0ac69;
+    position: absolute;
+    width: 25px;
+    top: 80px;
+    left: 3px;
+    color: white;
+    z-index: 1;
+    height: 25px;
+}
+
+.littleManLegLT {
+    background-color: gray;
+    position: absolute;
+    width: 30px;
+    top: 60px;
+    left: 40px;
+    color: white;
+    z-index: 3;
+    height: 25px;
+}
+
+.littleManLegLL {
+    background-color: #e0ac69;
+    position: absolute;
+    width: 25px;
+    top: 80px;
+    left: 43px;
+    color: white;
+    z-index: 1;
+    height: 25px;
+}
+
+/* shoes */
+
+.littleManShoesR {
+    background-color: black;
+    position: absolute;
+    width: 25px;
+    top: 100px;
+    left: 43px;
+    height: 13px;
+    z-index: 4;
+}
+
+.littleManShoesL {
+    background-color: black;
+    position: absolute;
+    width: 25px;
+    top: 100px;
+    left: 3px;
+    height: 13px;
+    z-index: 4;
+}
+
+.littleManShoesRa {
+    background-image: linear-gradient(#0A0A23, rgb(71, 61, 61), black, black);
+    position: absolute;
+    width: 30px;
+    top: 110px;
+    left: 38px;
+    height: 13px;
+    z-index: 4;
+}
+
+.littleManShoesLa {
+    background-image: linear-gradient(#0A0A23, rgb(71, 61, 61), black, black);
+    position: absolute;
+    width: 35px;
+    top: 110px;
+    left: -7px;
+    height: 13px;
+    z-index: 4;
+}
+
+.littleMan {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 80vh;
+    right: 7vw;
+}
+
+span {
+    font-size: 13px;
+    color: red;
+    font-size: 10px;
+
+}

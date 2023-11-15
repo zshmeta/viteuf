@@ -1,0 +1,111 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.zshmeta {
+  height: 7em;
+  padding: 13px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.zshmeta:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.zshmeta:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes zshmeta-spin {
+   0%{
+    transform: rotate(0deg);
+  }10%{
+    transform: rotate(36deg);
+  }11%{
+      scale: 1.4;
+  }12%{
+      scale: 1.2;
+
+  }13%{
+    scale: 1.6;  
+  }14% {
+    scale: 1.0;
+  }
+
+  20%{
+    transform: rotate(72deg);
+  }
+  40%{
+    transform: rotate(144deg);
+  }
+  60%{
+    transform: rotate(216deg);
+  }70%{
+    scale: 1.4;
+  }71%{
+      scale: 1.2;
+
+  }72%{
+      scale: 1.6;  
+  }73% {
+    scale: 1.0;
+  }
+  80%{
+    transform: rotate(288deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .zshmeta {
+    animation: zshmeta-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.fineprint {
+  color: #888;
+}
+
+
+h3, p, code {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #1e9600, #fff200,  #ff0000);
+  -webkit-background-clip: text;
+  background-clip: linear-gradient(45deg,#ff0000, #fff200,  #1e9600);
+  -webkit-text-fill-color: transparent;
+
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  
+}
+  
+
+  

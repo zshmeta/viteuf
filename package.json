@@ -1,0 +1,39 @@
+{
+  "name": "viteuf",
+  "version": "1.2.15",
+  "description": "A ViteFait Starter",
+  "main": "cli.js",
+  "scripts": {
+    "zshmeact": "node -e 'require(\"./index.js\").zshmeact();'"
+  },
+  "type": "module",
+  "bin": {
+    "viteuf": "./src/viteuf.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zshmeta/zshmeact.git"
+  },
+  "keywords": [
+    "Template",
+    "Vite",
+    "React"
+  ],
+  "author": "zshmeta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zshmeta/zshmeact/issues"
+  },
+  "homepage": "https://github.com/zshmeta/zshmeact#readme",
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "compomerci": "^0.1.4",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

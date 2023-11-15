@@ -1,0 +1,49 @@
+{
+  "name": "vite-zshmeact",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.1.1",
+    "compomerci": "^0.1.4",
+    "prettier": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.1",
+    "vitest": "^0.34.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.9"
+  },
+  "description": "##### ...by zshmeta",
+  "main": "vite.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zshmeta/vite-zshmeact.git"
+  },
+  "keywords": [
+    "React",
+    "Vite",
+    "Starter"
+  ],
+  "author": "zshmeta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zshmeta/vite-zshmeact/issues"
+  },
+  "homepage": "https://github.com/zshmeta/vite-zshmeact#readme"
+}

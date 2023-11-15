@@ -1,0 +1,48 @@
+
+.Pikamanx {
+  display: block;
+  left: 33px;
+  position: absolute;
+
+}
+
+.PikaMan {
+  width: px;
+  animation: fallout 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes fallout {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+@media (max-width: 690px) {
+  .Pikamanx {
+    display: block;
+    left: 33px;
+    position: absolute;
+  }
+  .Pikamanx {
+    display: block;
+    left: 33px;
+    position: absolute;
+  }
+  .PikaMan {
+    width: 100px;
+    animation: fallout 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes fallout {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
+}

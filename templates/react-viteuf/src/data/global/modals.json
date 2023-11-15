@@ -1,0 +1,13 @@
+{"modals": [
+    {
+        "id": "greetings",
+        "title": "Greetings",
+        "content": "Hello, world!, Thanks for chosing to work with my template. I hope you enjoy it. If you have any questions, please feel free to contact me at <a href='mailto:zshmeta@gmail.com'. You can buy me a coffee at https://buymeacoffee.com/zshmetaBuy Me A Coffee</a>"
+    },
+    {
+        "id": "structure",
+        "title": "Project Architecture",
+        "content": "\nvite-zshmeact\n├── .gitignore\\n├── db\n│   ├── config.json\n│   ├── migrations\n│   └── seeders\n├── public\n├── server\n│   ├── api\n│   │   ├── controllers\n│   │   ├── middlewares\n│   │   ├── models\n│   │   ├── routes\n│   │   └── validators\n│   ├── app\n│   ├── config\n│   └── utils\n└── src\n    ├── api\n    ├── assets\n    │   ├── docs\n    │   ├── fonts\n    │   ├── icons\n    │   ├── images\n    │   ├── sounds\n    │   └── video\n    ├── components\n    │   ├── Clock\n    │   ├── PetitZshmeta\n    │   ├── Pikaman\n    │   └── Ui\n    │       ├── Button\n    │       └── Modal\n    ├── data\n    │   └── global\n    ├── layouts\n    │   ├── Footer\n    │   ├── Head\n    │   └── NavBar\n    ├── modules\n    ├── pages\n    │   ├── About\n    │   └── Home\n    ├── routes\n    └── utils"
+    }
+]
+}
