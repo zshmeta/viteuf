@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/zshmeta/zshmeact.git"
   },
+  "scripts": {
+    "viteuf": "node cli.js"
+  },
   "keywords": [
     "Template",
     "Vite",
