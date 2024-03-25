@@ -1,10 +1,10 @@
 {
   "name": "viteuf",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "description": "A ViteFait Starter",
   "main": "cli.js",
   "scripts": {
-    "viteuf": "node -e 'require(\"./index.js\").zshmeact();'"
+    "viteuf": "node cli.js"
   },
   "type": "module",
   "bin": {
@@ -13,9 +13,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zshmeta/zshmeact.git"
-  },
-  "scripts": {
-    "viteuf": "node cli.js"
   },
   "keywords": [
     "Template",
