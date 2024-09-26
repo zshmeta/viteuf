@@ -27,7 +27,7 @@ function App() {
         </a>
       </div>
       <br />
-      <h3>(Plus) Vite Zshmeact!</h3>
+      <h3>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Clicked  {count}  times.
@@ -35,18 +35,17 @@ function App() {
         <Pikamanx />
         <p>
           <br />
-          <code>J'Suis dans ma ... 
-          <strong>Paranoïa</strong> <br />
-            <em>Paranoiaque... </em> <br />
-            <small><em>Laissez Moi Sur Ma Route...</em></small> <br />
-            <small><em>J'en ai Plus Rien a Foutre...</em></small>
+          <code>Free Palestine
+          <strong></strong> <br />
+            <em>فلسطين الحرة </em> <br />
+            <small><em>自由巴勒斯坦</em></small> <br />
+            <small><em>свободная Палестина</em></small>
           </code>
         </p>
         <PetitZshmeta />
       
       <p className="fineprint">
-        Based on the Orginal <br />
-        <code>yarn create vite </code>
+      Liberez la Palestine<br />
       </p>
      <Particles />
      
